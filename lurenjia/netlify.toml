@@ -1,0 +1,13 @@
+[build]
+  publish = "."
+  command = "echo 'No build needed'"
+
+[[redirects]]
+  from = "/*"
+  to = "/lu.html"
+  status = 200
+
+[[redirects]]
+  from = "/loan"
+  to = "/loan.html"
+  status = 200
